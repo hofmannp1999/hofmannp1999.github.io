@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Courses I currently teach or assist at Paderborn University.
-nav: true
+nav: false
 nav_order: 3
 ---
 
