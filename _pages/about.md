@@ -2,37 +2,37 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, Chair of International Accounting · <a href='https://www.uni-paderborn.de/'>Paderborn University</a>
+affiliation: PADERBORN UNIVERSITY · CHAIR OF INTERNATIONAL ACCOUNTING
+subtitle: PhD Student in Accounting &amp; Valuation
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Department of Taxation, Accounting & Finance</p>
+    <p>Department of Taxation, Accounting &amp; Finance</p>
     <p>Warburger Str. 100</p>
     <p>33098 Paderborn, Germany</p>
 
-selected_papers: true
-social: true
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
   enabled: false
-  scrollable: true
-  limit: 3
 ---
 
-I am a PhD student at the [Chair of International Accounting](https://wiwi.uni-paderborn.de/dep3/sievers) at Paderborn University, where I work with Prof. Dr. Sönke Sievers.
+I am a PhD student at the [Chair of International Accounting](https://wiwi.uni-paderborn.de/dep3/sievers), where I work with Prof. Dr. Sönke Sievers. My research focuses on **financial accounting and valuation** — what drives long-term firm performance, how investors interpret accounting information, and how disclosure regulation shapes capital markets.
 
-**Research interests:** financial accounting · firm valuation · long-term abnormal earnings · disclosure regulation.
+I teach in master-level courses on **Mergers, Acquisitions and Divestitures** and **Financial Statement Analysis and Business Valuation**, and I supervise master theses.
 
-Before starting my PhD in November 2025, I completed an M.Sc. in Taxation, Accounting and Finance at Paderborn (accelerated track), with a master's thesis examining the evolving drivers of long-term abnormal earnings for U.S. firms. I also hold a B.Sc. in Business Administration & Economics with a specialization in Taxation, Accounting, and Finance.
-
-Alongside my research, I teach in master-level courses on **Mergers, Acquisitions and Divestitures** and **Financial Statement Analysis and Business Valuation**, and I supervise master theses.
-
-[**Download my CV (PDF)**](/assets/pdf/cv_Philipp_Hofmann.pdf) · See my [publications](/publications/) · For inquiries, reach me by [email](mailto:philipp.hofmann@uni-paderborn.de).
+<p class="action-row">
+  <a href="mailto:philipp.hofmann@uni-paderborn.de"><i class="fa-solid fa-envelope"></i> Email</a>
+  <a href="/assets/pdf/cv_Philipp_Hofmann.pdf"><i class="fa-solid fa-file-pdf"></i> CV</a>
+  <a href="/publications/"><i class="fa-solid fa-book"></i> Publications</a>
+  <a href="https://scholar.google.com/citations?user=05-nMzMAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Scholar</a>
+  <a href="https://orcid.org/0009-0001-8904-8507" target="_blank" rel="noopener"><i class="ai ai-orcid"></i> ORCID</a>
+  <a href="https://www.linkedin.com/in/philipp-hofmann-18a386269/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+</p>
