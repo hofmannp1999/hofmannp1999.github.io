@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joint article with Ruoxi Li and Sönke Sievers on four years of ESEF reporting in Germany published in *KoR*, issue 07-08/2025.
+Joint article with Reeyarn Li and Sönke Sievers on four years of ESEF reporting in Germany published in *KoR*, issue 07-08/2025.
