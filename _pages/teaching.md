@@ -2,14 +2,18 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses I currently teach or assist at Paderborn University.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 3
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+### Master's level
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- **Mergers, Acquisitions and Divestitures** — Instructor / Tutor (since 2025)
+- **Financial Statement Analysis and Business Valuation** — Instructor / Tutor (since 2024)
 
-{% include courses.liquid %}
+### Bachelor's level
+
+- **Introduction to Finance and Investment** — Tutor (2025)
+
+I also supervise master's theses in topics related to financial accounting, valuation, and corporate disclosure. If you are a Paderborn master's student interested in writing your thesis with our chair, please get in touch by email.
