@@ -1,0 +1,200 @@
+\documentclass[11pt, a4paper]{article}
+
+% --------------------------------------------------------------------------------
+% PACKAGES & CONFIGURATION
+% --------------------------------------------------------------------------------
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}      % Standard LaTeX Computer Modern font
+\usepackage{longtable}    % Allows tables to break across pages
+\usepackage{array}        % Improved table column definitions
+\usepackage{enumitem}     % For customizing lists (bullets)
+\usepackage{hyperref}     % For links
+\usepackage{titlesec}     % For section formatting
+\usepackage{xcolor}       % For colors
+
+% Remove paragraph indentation
+\setlength{\parindent}{0pt}
+
+% Section Formatting: Bold + Small Caps, Left Aligned
+\titleformat{\section}
+  {\normalfont\large\bfseries\scshape}{}{0em}{}
+\titlespacing{\section}{0pt}{18pt}{6pt}
+
+% Hyperlink Setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=blue,
+    citecolor=black
+}
+
+% Global Indentation for Tables
+% Shift tables right to create a visual hierarchy with section headers
+\setlength{\LTleft}{1.5em}
+
+% Custom Column Types
+% L = Date Column (2.8cm)
+% R = Content Column (12.5cm)
+\newcolumntype{L}{@{}p{2.8cm}} 
+\newcolumntype{R}{p{12.5cm}@{}}
+
+% Helper command for vertical spacing between entries
+\newcommand{\entrygap}{\\[12pt]} 
+
+% Helper command to adjust vertical spacing for lists inside tables
+\newcommand{\liftlist}{\vspace*{-0.6em}} 
+
+\begin{document}
+
+% --------------------------------------------------------------------------------
+% HEADER
+% --------------------------------------------------------------------------------
+\hfill {\footnotesize Curriculum Vitae (\today)} \\[5pt]
+
+{\huge \textbf{Philipp Hofmann}} \\[2pt]
+
+\hrule 
+\vspace{8pt}
+
+Department of Taxation, Accounting \& Finance \\
+Warburger Str. 100, Paderborn, 33098, Germany. \\
+Email: \href{mailto:philipp.hofmann@uni-paderborn.de}{philipp.hofmann@uni-paderborn.de} \\
+Mobile: +49 (0)176 23362949
+
+\vspace{10pt}
+
+% --------------------------------------------------------------------------------
+% RESEARCH EXPERIENCE
+% --------------------------------------------------------------------------------
+\section*{Research Experience}
+
+\begin{longtable}{L R}
+    % Entry 1
+    Nov 2025 -- & \textbf{PhD Student}, Paderborn University \\
+    Present & Chair of International Accounting \\
+    & \liftlist
+      \begin{itemize}[nosep, leftmargin=*, itemsep=1.5pt]
+        \item Conducting research in financial accounting and valuation.
+        \item Supervising master theses and teaching support.
+      \end{itemize} \entrygap
+
+    % Entry 2
+    2024 -- 2025 & \textbf{Research Assistant}, Paderborn University \\
+    & Chair of Corporate Finance and Financial Reporting \\
+    & \liftlist
+      \begin{itemize}[nosep, leftmargin=*, itemsep=1.5pt]
+        \item Preparation of lecture materials (Finance and Investment, Behavioral Corporate Finance).
+        \item Support in research and teaching, including web scraping with Python and econometric analyses.
+      \end{itemize} \entrygap
+
+    % Entry 3
+    2021 -- 2025 & \textbf{Research Assistant}, Paderborn University \\
+    & Chair of International Accounting \\
+    & \liftlist
+      \begin{itemize}[nosep, leftmargin=*, itemsep=1.5pt]
+        \item Preparation of lecture materials (Group Accounting, Web Scraping, Business Valuation).
+        \item Support in research and data collection.
+      \end{itemize} \\
+\end{longtable}
+
+% --------------------------------------------------------------------------------
+% EDUCATION
+% --------------------------------------------------------------------------------
+\section*{Education}
+
+\begin{longtable}{L R}
+    % Entry 1
+    2024 -- 2025 & \textbf{M.Sc. Taxation, Accounting and Finance}, Paderborn University \\
+    & \liftlist
+      \begin{itemize}[nosep, leftmargin=*, itemsep=1.5pt] 
+        \item {Overall GPA: 3.6}.
+        \item Accelerated Track: Completed standard 4-semester program in 3 semesters.
+        \item Master Thesis (GPA: 4.0): ``What Sustains Competitive Advantage? An Examination of the Evolving Drivers of Long-Term Abnormal Earnings for U.S. Firms.''
+      \end{itemize} \entrygap
+    
+    % Entry 2
+    2020 -- 2024 & \textbf{B.Sc. Business Administration \& Economics}, Paderborn University \\
+    & \emph{Specialization: Taxation, Accounting, and Finance} \\
+    
+    % Entry 3
+    \\[2pt] 
+    2019 -- 2020 & \textbf{B.Ed. Secondary School Teaching}, Paderborn University \\
+    & Subjects: English, Mathematics \\
+\end{longtable}
+
+\newpage 
+
+% --------------------------------------------------------------------------------
+% TEACHING EXPERIENCE
+% --------------------------------------------------------------------------------
+\section*{Teaching Experience}
+
+\begin{longtable}{L R}
+    2021 -- Present & \textbf{Instructor / Tutor}, Paderborn University \\
+    & \liftlist
+      \begin{itemize}[nosep, leftmargin=*, itemsep=1.5pt]
+        \item \emph{Mergers, Acquisitions and Divestures} (2025 -- Present)
+        \item \emph{Financial Statement Analysis and Business Valuation} (2024 -- Present)
+        \item \emph{Introduction to Finance and Investment} (2025)
+      \end{itemize} \\
+\end{longtable}
+
+% --------------------------------------------------------------------------------
+% PUBLICATIONS
+% --------------------------------------------------------------------------------
+\section*{Publications}
+
+% Indentation set to 1.5em to align with the table entries
+\begin{itemize}[nosep, leftmargin=1.5em, label={$\bullet$}, itemsep=6pt]
+    \item Hofmann, P., R. Li, \& S. Sievers. ``Vierjährige Erfahrungen mit der ESEF-Berichterstattung in Deutschland: Herausforderungen und Chancen'' (Four-Year Experience with ESEF Reporting in Germany: Challenges and Opportunities). \emph{Zeitschrift für Internationale und Kapitalmarktorientierte Rechnungslegung (KoR)} (2025), Nr. 07-08, pp. 251–258.
+    
+    \item Hofmann, P., \& J. Riepe. ``Zwischen Sparzwang und Eigenverantwortung: Top-Down- vs. Bottom-Up-Budgetierung in der Kommunalpolitik'' (Balancing Fiscal Constraints and Local Autonomy: Top-Down vs. Bottom-Up Budgeting in Municipal Politics).  \emph{Der Neue Kämmerer}, 01/2025.
+\end{itemize}
+
+% --------------------------------------------------------------------------------
+% WORKING PAPERS
+% --------------------------------------------------------------------------------
+\section*{Working Papers}
+
+\begin{itemize}[nosep, leftmargin=1.5em, label={$\bullet$}, itemsep=6pt]
+    \item Hofmann, P., J. Riepe, \& K. Wittek. ``Are Intangibles GILTI? Users’ view on intangible’s dual role of tax uncertainty and value.''
+    
+    \item Heine, A., P. Hofmann, K. Hase, \& S. Sievers. ``What matters for organizing M\&A successfully?''
+\end{itemize}
+
+% --------------------------------------------------------------------------------
+% SKILLS & INTERESTS
+% --------------------------------------------------------------------------------
+\section*{Skills \& Interests}
+
+\begin{longtable}{L R}
+    Languages & German (Native), English (Fluent) \\
+    Technical Skills & Stata, R, Python, MS Office 365 \\
+    Interests & Volleyball, Fitness, Triathlon \\
+\end{longtable}
+
+% --------------------------------------------------------------------------------
+% REFERENCES
+% --------------------------------------------------------------------------------
+\section*{References}
+
+\begin{itemize}[leftmargin=1.5em, label={}, itemsep=12pt]
+    \item \textbf{Prof. Dr. Sönke Sievers} \\
+    TRR 266 ACCOUNTING FOR TRANSPARENCY \\
+    Professor of International Accounting \\
+    Paderborn University, Germany \\
+    Warburger Str. 100, 33098 Paderborn, Room Q2.401 \\ 
+    +49 5251 60 3377 \\
+    \href{mailto:soenke.sievers@uni-paderborn.de}{soenke.sievers@uni-paderborn.de}
+
+    \item \textbf{Prof. Dr. Jan Riepe} \\
+    TRR 266 ACCOUNTING FOR TRANSPARENCY \\
+    Professor of Corporate Finance and Financial Reporting \\
+    Paderborn University, Germany\\
+    \href{mailto:jan.riepe@uni-paderborn.de}{jan.riepe@uni-paderborn.de}
+\end{itemize}
+
+\end{document}
