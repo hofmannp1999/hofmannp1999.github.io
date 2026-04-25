@@ -113,23 +113,6 @@ cv:
         releaseDate: 2025
         summary: "Balancing Fiscal Constraints and Local Autonomy: Top-Down vs. Bottom-Up Budgeting in Municipal Politics."
 
-      - title: "Are Intangibles GILTI? Users' View on Intangible's Dual Role of Tax Uncertainty and Value"
-        authors:
-          - Philipp Hofmann
-          - Jan Riepe
-          - Kai Wittek
-        publisher: "Working paper"
-        releaseDate: 2026
-
-      - title: "What matters for organizing M&A successfully?"
-        authors:
-          - Anne Heine
-          - Philipp Hofmann
-          - Karoline Hase
-          - Sönke Sievers
-        publisher: "Working paper"
-        releaseDate: 2026
-
     Skills:
       - name: Statistical & Programming
         level: Advanced
