@@ -21,7 +21,7 @@ cv:
     countryCode: DE
 
   sections:
-    Research Experience:
+    Experience:
       - company: Paderborn University — Chair of International Accounting
         position: PhD Student
         location: Paderborn, Germany
@@ -48,6 +48,24 @@ cv:
         highlights:
           - Prepared lecture materials for Group Accounting, Web Scraping, and Business Valuation.
           - Supported research and data collection.
+
+      - company: Paderborn University
+        position: Instructor / Tutor — Mergers, Acquisitions and Divestitures (master)
+        location: Paderborn, Germany
+        start_date: 2025
+        end_date: present
+
+      - company: Paderborn University
+        position: Instructor / Tutor — Financial Statement Analysis and Business Valuation (master)
+        location: Paderborn, Germany
+        start_date: 2024
+        end_date: present
+
+      - company: Paderborn University
+        position: Tutor — Introduction to Finance and Investment (bachelor)
+        location: Paderborn, Germany
+        start_date: 2025
+        end_date: 2025
 
     Education:
       - institution: Paderborn University
@@ -77,25 +95,6 @@ cv:
         start_date: 2019
         end_date: 2020
 
-    Teaching:
-      - company: Paderborn University
-        position: Mergers, Acquisitions and Divestitures (Instructor / Tutor)
-        location: Paderborn, Germany
-        start_date: 2025
-        end_date: present
-
-      - company: Paderborn University
-        position: Financial Statement Analysis and Business Valuation (Instructor / Tutor)
-        location: Paderborn, Germany
-        start_date: 2024
-        end_date: present
-
-      - company: Paderborn University
-        position: Introduction to Finance and Investment (Tutor)
-        location: Paderborn, Germany
-        start_date: 2025
-        end_date: 2025
-
     Publications:
       - title: "Vierjährige Erfahrungen mit der ESEF-Berichterstattung in Deutschland: Herausforderungen und Chancen"
         authors:
@@ -114,13 +113,13 @@ cv:
         releaseDate: 2025
         summary: "Balancing Fiscal Constraints and Local Autonomy: Top-Down vs. Bottom-Up Budgeting in Municipal Politics."
 
-    Working Papers:
       - title: "Are Intangibles GILTI? Users' View on Intangible's Dual Role of Tax Uncertainty and Value"
         authors:
           - Philipp Hofmann
           - Jan Riepe
           - Kai Wittek
         publisher: "Working paper"
+        releaseDate: 2026
 
       - title: "What matters for organizing M&A successfully?"
         authors:
@@ -129,6 +128,7 @@ cv:
           - Karoline Hase
           - Sönke Sievers
         publisher: "Working paper"
+        releaseDate: 2026
 
     Skills:
       - name: Statistical & Programming
