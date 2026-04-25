@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my PhD at the [Chair of International Accounting](https://wiwi.uni-paderborn.de/dep3/sievers), Paderborn University.
+Started my PhD at the [Chair of International Accounting](https://wiwi.uni-paderborn.de/dep2/prof-sievers), Paderborn University.
