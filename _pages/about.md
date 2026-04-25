@@ -24,9 +24,9 @@ latest_posts:
   enabled: false
 ---
 
-I am a PhD student at the [Chair of International Accounting](https://wiwi.uni-paderborn.de/dep3/sievers), where I work with Prof. Dr. Sönke Sievers. My research focuses on **financial accounting and valuation** — what drives long-term firm performance, how investors interpret accounting information, and how disclosure regulation shapes capital markets.
+I am a PhD student at the [Chair of International Accounting](https://wiwi.uni-paderborn.de/dep3/sievers), where I work with Prof. Dr. Sönke Sievers. My research sits at the intersection of financial accounting and valuation — what drives long-term firm performance, how investors interpret accounting information, and how disclosure regulation shapes capital markets.
 
-I teach in master-level courses on **Mergers, Acquisitions and Divestitures** and **Financial Statement Analysis and Business Valuation**, and I supervise master theses.
+I teach in master-level courses on Mergers, Acquisitions and Divestitures and on Financial Statement Analysis and Business Valuation, and I supervise master theses.
 
 <p class="action-row">
   <a href="mailto:philipp.hofmann@uni-paderborn.de"><i class="fa-solid fa-envelope"></i> Email</a>
