@@ -203,3 +203,26 @@ article h3,
   margin-right: 0.4em;
   color: var(--global-theme-color);
 }
+
+/* ---- Mobile refinements ---- */
+@media (max-width: 576px) {
+  .post-header .post-title {
+    font-size: 2.4rem;
+    line-height: 1.1;
+  }
+  .post-header .desc {
+    font-size: 1rem;
+  }
+  .post-header .affiliation {
+    font-size: 0.7rem;
+    letter-spacing: 0.13em;
+  }
+  /* Smaller portrait on mobile + tighter spacing */
+  .profile {
+    margin-bottom: 1rem;
+  }
+  .action-row {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+}
